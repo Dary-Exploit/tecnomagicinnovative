@@ -1,0 +1,74 @@
+{
+    "destacados": [
+        {
+          "nombre": "Computadora dell gamer",
+          "imagen": "https://scontent.fsti5-1.fna.fbcdn.net/v/t1.6435-9/94518340_3722941284414881_6327008205972963328_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=dd63ad&_nc_ohc=0rCvP9nhTEMAX9ga2q7&_nc_ht=scontent.fsti5-1.fna&oh=00_AfCGtgOfTf_ZGncOdonjxEgTURcbtZ6YnJYVQ6w3qq8gWw&oe=65E605DE",
+          "precio": "RD$ 1,550",
+          "href":"ubicacion"
+        },
+        {
+            "nombre": "Computadora dell gamer",
+            "imagen": "https://scontent.fsti5-1.fna.fbcdn.net/v/t1.6435-9/94518340_3722941284414881_6327008205972963328_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=dd63ad&_nc_ohc=0rCvP9nhTEMAX9ga2q7&_nc_ht=scontent.fsti5-1.fna&oh=00_AfCGtgOfTf_ZGncOdonjxEgTURcbtZ6YnJYVQ6w3qq8gWw&oe=65E605DE",
+            "precio": "RD$ 1,550",
+            "href":"ubicacion"
+          },
+          {
+            "nombre": "Computadora dell gamer",
+            "imagen": "https://scontent.fsti5-1.fna.fbcdn.net/v/t1.6435-9/94518340_3722941284414881_6327008205972963328_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=dd63ad&_nc_ohc=0rCvP9nhTEMAX9ga2q7&_nc_ht=scontent.fsti5-1.fna&oh=00_AfCGtgOfTf_ZGncOdonjxEgTURcbtZ6YnJYVQ6w3qq8gWw&oe=65E605DE",
+            "precio": "RD$ 1,550",
+            "href":"ubicacion"
+          },
+          {
+            "nombre": "Computadora dell gamer",
+            "imagen": "https://scontent.fsti5-1.fna.fbcdn.net/v/t1.6435-9/94518340_3722941284414881_6327008205972963328_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=dd63ad&_nc_ohc=0rCvP9nhTEMAX9ga2q7&_nc_ht=scontent.fsti5-1.fna&oh=00_AfCGtgOfTf_ZGncOdonjxEgTURcbtZ6YnJYVQ6w3qq8gWw&oe=65E605DE",
+            "precio": "RD$ 1,550",
+            "href":"ubicacion"
+          },
+          {
+            "nombre": "Computadora dell gamer",
+            "imagen": "https://scontent.fsti5-1.fna.fbcdn.net/v/t1.6435-9/94518340_3722941284414881_6327008205972963328_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=dd63ad&_nc_ohc=0rCvP9nhTEMAX9ga2q7&_nc_ht=scontent.fsti5-1.fna&oh=00_AfCGtgOfTf_ZGncOdonjxEgTURcbtZ6YnJYVQ6w3qq8gWw&oe=65E605DE",
+            "precio": "RD$ 1,550",
+            "href":"ubicacion"
+          },
+          {
+            "nombre": "Computadora dell gamer",
+            "imagen": "https://scontent.fsti5-1.fna.fbcdn.net/v/t1.6435-9/94518340_3722941284414881_6327008205972963328_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=dd63ad&_nc_ohc=0rCvP9nhTEMAX9ga2q7&_nc_ht=scontent.fsti5-1.fna&oh=00_AfCGtgOfTf_ZGncOdonjxEgTURcbtZ6YnJYVQ6w3qq8gWw&oe=65E605DE",
+            "precio": "RD$ 1,550",
+            "href":"ubicacion"
+          },
+          {
+            "nombre": "Computadora dell gamer",
+            "imagen": "https://scontent.fsti5-1.fna.fbcdn.net/v/t1.6435-9/94518340_3722941284414881_6327008205972963328_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=dd63ad&_nc_ohc=0rCvP9nhTEMAX9ga2q7&_nc_ht=scontent.fsti5-1.fna&oh=00_AfCGtgOfTf_ZGncOdonjxEgTURcbtZ6YnJYVQ6w3qq8gWw&oe=65E605DE",
+            "precio": "RD$ 1250",
+            "href":"ubicacion"
+          }
+    ],
+    "ofertas": [
+        {
+            "nombre": "Computadora dell super gamer",
+            "imagen": "https://scontent.fsti5-1.fna.fbcdn.net/v/t1.6435-9/94518340_3722941284414881_6327008205972963328_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=dd63ad&_nc_ohc=0rCvP9nhTEMAX9ga2q7&_nc_ht=scontent.fsti5-1.fna&oh=00_AfCGtgOfTf_ZGncOdonjxEgTURcbtZ6YnJYVQ6w3qq8gWw&oe=65E605DE",
+            "precio": "RD$ 1,550",
+            "href":"ubicacion"
+        },
+        {
+          "nombre": "Computadora dell super gamer",
+          "imagen": "https://scontent.fsti5-1.fna.fbcdn.net/v/t1.6435-9/94518340_3722941284414881_6327008205972963328_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=dd63ad&_nc_ohc=0rCvP9nhTEMAX9ga2q7&_nc_ht=scontent.fsti5-1.fna&oh=00_AfCGtgOfTf_ZGncOdonjxEgTURcbtZ6YnJYVQ6w3qq8gWw&oe=65E605DE",
+          "precio": "RD$ 1,550",
+          "href":"ubicacion"
+      },
+      {
+        "nombre": "Computadora dell super gamer",
+        "imagen": "https://scontent.fsti5-1.fna.fbcdn.net/v/t1.6435-9/94518340_3722941284414881_6327008205972963328_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=dd63ad&_nc_ohc=0rCvP9nhTEMAX9ga2q7&_nc_ht=scontent.fsti5-1.fna&oh=00_AfCGtgOfTf_ZGncOdonjxEgTURcbtZ6YnJYVQ6w3qq8gWw&oe=65E605DE",
+        "precio": "RD$ 1,550",
+        "href":"ubicacion"
+    },
+    {
+      "nombre": "Computadora dell super gamer",
+      "imagen": "https://scontent.fsti5-1.fna.fbcdn.net/v/t1.6435-9/94518340_3722941284414881_6327008205972963328_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=dd63ad&_nc_ohc=0rCvP9nhTEMAX9ga2q7&_nc_ht=scontent.fsti5-1.fna&oh=00_AfCGtgOfTf_ZGncOdonjxEgTURcbtZ6YnJYVQ6w3qq8gWw&oe=65E605DE",
+      "precio": "RD$ 1,550",
+      "href":"ubicacion"
+  }
+
+    ]
+      
+}

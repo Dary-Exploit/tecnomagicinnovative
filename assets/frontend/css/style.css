@@ -1,0 +1,436 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #0c2d57;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
+.container-custom {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+  margin-right: 14px;
+}
+
+.name-slogan {
+  text-align: left;
+  margin-right: 15px;
+}
+
+.name-slogan-container {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.divisor {
+  background-color: #007acc;
+  height: 6px;
+}
+
+.name,
+.slogan {
+  font-family: 'Arial', sans-serif;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.8);
+  color: white;
+}
+
+.name {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.slogan {
+  font-size: 0.8rem;
+  font-weight: lighter;
+}
+
+.bgblue {
+  background-color: #0c2d57;
+}
+
+.navbar-nav .nav-item a {
+  color: #fff;
+  transition: background-color 0.3s, color 0.3s, border 0.3s;
+  border-bottom: 2px solid transparent;
+  padding-bottom: 8px;
+}
+
+.navbar-nav .nav-item a:hover {
+  background-color: #007bff;
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+.menu-lateral {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #191919;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.menu-lateral a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #fff;
+  display: block;
+  transition: 0.3s;
+}
+
+.menu-lateral a:hover {
+  color: #007bff;
+}
+
+.menu-lateral .cerrar-btn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 30px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .menu-lateral {
+    padding-top: 15px;
+  }
+  .menu-lateral a {
+    font-size: 18px;
+  }
+}
+
+.overlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  display: none;
+  z-index: 100;
+}
+
+.menu-open,
+.hide-on-menu {
+  display: none;
+}
+
+.realbody {
+ 
+}
+
+.footericons {
+  width: 35px;
+  height: 35px;
+  margin-left: 12px;
+}
+
+.copytext {
+  color: #7fc4f1;
+  letter-spacing: 3px;
+  font-size: 1rem;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.7);
+  font-weight: lighter;
+}
+
+.footerlink,
+.footer-heading {
+  color: #fff;
+}
+
+.footer-heading {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.footer-list,
+.list-group-item,
+.submenu,
+.subsubmenu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-link,
+.list-group-item a,
+.submenu a,
+.subsubmenu a {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s;
+}
+
+.footer-link:hover,
+.list-group-item:hover,
+.submenu a:hover,
+.subsubmenu a:hover {
+  color: #007bff;
+}
+
+.informacion {
+  padding: 2rem 0;
+  background-color: #0c2d57;
+}
+
+.footertitle {
+  border-bottom: 2px solid #fff;
+  padding-bottom: 0.5rem;
+  color: #7fc4f1;
+}
+
+.arrow {
+  display: inline-block;
+  margin-left: 2px;
+  font-size: 20px;
+}
+
+.title {
+  padding: 15px;
+  color: #fff;
+}
+
+.menutitle {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.menu-list li {
+  margin-bottom: 10px;
+}
+
+.menu-list a,
+.itmmenu {
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+.category-menu,
+.menu-category,
+.list-group-item {
+  background-color: #191919;
+}
+
+.category-menu {
+  padding: 20px;
+  border-radius: 10px;
+  transition: background-color 0.3s;
+}
+
+
+
+.menu-category,
+.menu-category:hover {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  transition: color 0.3s;
+  color: #007bff;
+}
+
+
+
+.submenu,
+.subsubmenu {
+  padding-left: 20px;
+}
+
+.additional-options {
+  margin-top: 20px;
+}
+
+.no-scroll {
+  overflow: hidden;
+}
+
+.destacados-section {
+  padding: 50px 0;
+  background-color: #f0f0f0; 
+}
+
+.producto {
+  padding: 15px;
+  margin-bottom: 20px;
+  transition: box-shadow 0.3s;
+  position: relative; 
+  overflow: hidden; 
+  height: 410px;
+}
+
+.producto img {
+  max-width: 100%;
+  height: auto;
+}
+
+.producto h3 {
+  margin-top: 10px;
+  font-size: 1.2rem;
+}
+
+.precio {
+  color: #007acc; 
+  font-weight: bold;
+}
+
+.btn-anadir {
+  position: absolute;
+  bottom: 10px; 
+  left: 50%;
+  transform: translateX(-50%);
+  display: block;
+  background-color: #E31C79;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.5s;
+}
+
+
+.producto:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.producto:hover .btn-anadir {
+  bottom: 15px; 
+  opacity: 1; 
+}
+
+.btn-anadir:hover {
+  background-color: #E31C79; 
+}
+
+.titledestacado {
+  color: #0c2d57;
+}
+@media screen and (max-width: 767px) {
+  .producto .btn-anadir {
+    bottom: 15px;
+    opacity: 1;
+  }
+}
+
+.precio{
+  text-decoration: none;
+  font-size: 2rem; 
+  color:#E31C79 ;
+}
+
+.nombreproducto{
+  text-decoration: none;
+  font-size: 1.2rem;
+  color:#0c2d57;
+}
+
+.producto {
+  position: relative;
+  overflow: hidden;
+  height: 410px;
+}
+
+.btn-anadir {
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: none;
+  background-color: #E31C79;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.5s;
+}
+
+.btn-anadir:hover {
+  background-color: #D0176A; 
+}
+
+.btn-anadir:active {
+  transform: translateX(-50%) scale(0.95); 
+}
+
+.producto:hover .btn-anadir {
+  display: block;
+}
+
+@media screen and (max-width: 767px) {
+  .btn-anadir {
+    display: block;
+  }
+}
+
+.btn-ver-mas{
+
+  margin-bottom: 10px;
+
+}
+
+.ofertas-section{
+  background-color: #F0F0F0;
+}
+
+.ofertas-container .btn-anadir {
+
+  bottom: 10px;
+}
+
+
+/* eestulos que se aplican con id xq soy vago y m da pja declarar clases */
+#searchInput {
+  display: none;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.5s, visibility 0.5s;
+}
+
+#searchButton,
+#cartButton {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 1rem;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: background-color 0.3s;
+  z-index: 1001;
+}
+
+#searchButton:hover,
+#cartButton:hover {
+  background-color: #0056b3;
+}
+
+#searchInput.active {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+}
+
+.menuhover:hover {
+  background-color: #525455;
+}

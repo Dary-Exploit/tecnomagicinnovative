@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta name="robots" content="index, follow" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="assets/frontend/css/bootstrap.css" />
+    <link rel="stylesheet" href="assets/frontend/css/all.css" />
+    <link rel="stylesheet" href="assets/frontend/css/style.css">
+
+    <title>Inicio</title> 
+
+</head>
+
+<body id="main1">
+    <header class="bgblue text-white">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-3">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="assets/frontend/multimedia/Logo_Tecno.png" class="logo" alt="Logo" />
+                    </a>
+                </div>
+                <div class="col-md-6 text-center">
+                    <p class="mb-0 name">TECNOMAGIC INNOVATIVE</p>
+                    <p class="mb-0 mb-2 slogan">LA TECNOLOGÍA QUE LO HACE POSIBLE</p>
+                </div>
+                <div class="col-md-3 text-end">
+                    <div class="input-group">
+                        <input type="text" class="form-control" id="searchInput" placeholder="Buscar..." />
+                        <button class="btn hide-on-toggle" type="button" id="searchButton" onclick="toggleSearch()">
+                            <i class="fas fa-search"></i>
+                        </button>
+                        <button class="btn hide-on-toggle" type="button" id="cartButton">
+                            <i class="fas fa-shopping-cart"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="divisor"></div>
+    <nav class="navbar navbar-expand-md navbar-dark bgblue">
+        <div class="container">
+            <button class="navbar-toggler mb-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <img src="assets/frontend/multimedia/White-Arrow.png" width="40px" height="40px" alt="">
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="javascript:void(0);" onclick="abrirMenu()">
+                            <img src="assets/frontend/multimedia/White-toggle-icon.jpg"  width="24" height="24">
+                            Todo
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">
+                            <img src="assets/frontend/multimedia/Home.png"  width="24" height="24">
+                            Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">
+                            <img src="assets/frontend/multimedia/Oferta.png" width="24" height="24">
+                            Ofertas</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="mySidenav" class="menu-lateral">
+        <a href="javascript:void(0)" class="cerrar-btn" onclick="cerrarMenu()">×</a>
+    
+        <div class="title text-center">
+            <h4 class="menutitle">TECNOMAGIC INNOVATIVE</h4>
+        </div>
+
+        <div class="category-menu">
+            <h5 class="menu-category text-white mb-4 textomenu">Categorías</h5>
+            <ul class="list-group">
+                <li class="list-group-item bgblue">
+                    <a href="#" class="text-white menuhover" data-bs-toggle="collapse" data-bs-target="#menuCelulares" aria-expanded="false" aria-controls="menuCelulares">
+                        Celulares <span class="arrow">&#9658;</span>
+                    </a>
+                    <ul class="submenu collapse" id="menuCelulares">
+                        <li>
+                            <a href="#" class="text-white menuhover" data-bs-toggle="collapse" data-bs-target="#submenuSamsung" aria-expanded="false" aria-controls="submenuSamsung">
+                                Samsung <span class="arrow">&#9658;</span>
+                            </a>
+                            <ul class="submenu collapse" id="submenuSamsung">
+                                <li><a href="#" class="text-white menuhover">Samsung Galaxy S Series</a></li>
+                                <li><a href="#" class="text-white menuhover">Samsung Galaxy Note Series</a></li>
+                                <li><a href="#" class="text-white menuhover">Samsung Galaxy Z Series</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="text-white menuhover" data-bs-toggle="collapse" data-bs-target="#submenuXiaomi" aria-expanded="false" aria-controls="submenuXiaomi">
+                                Xiaomi <span class="arrow">&#9658;</span>
+                            </a>
+                            <ul class="submenu collapse" id="submenuXiaomi">
+                                <li><a href="#" class="text-white menuhover">Xiaomi Mi Series</a></li>
+                                <li><a href="#" class="text-white menuhover">Xiaomi Redmi Series</a></li>
+                                <li><a href="#" class="text-white menuhover">Xiaomi Poco Series</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+
+
+                <li class="list-group-item bgblue">
+                    <a href="#" class="text-white menuhover" data-bs-toggle="collapse" data-bs-target="#menuComputadoras" aria-expanded="false" aria-controls="menuComputadoras">
+                        Computadoras <span class="arrow">&#9658;</span>
+                    </a>
+                    <ul class="submenu collapse" id="menuComputadoras">
+                        <li>
+                            <a href="#" class="text-white menuhover" data-bs-toggle="collapse" data-bs-target="#submenuComputadora1" aria-expanded="false" aria-controls="submenuComputadora">
+                                computadora1 <span class="arrow">&#9658;</span>
+                            </a>
+                            <ul class="submenu collapse" id="submenuComputadora1">
+                                <li><a href="#" class="text-white menuhover">Supercomputadora master race 1</a></li>
+                                <li><a href="#" class="text-white menuhover">Supercomputadora master race 2</a></li>
+                                <li><a href="#" class="text-white menuhover">Supercomputadora master race 3</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+
+
+            </ul>
+        </div>
+        <div class="category-menu">
+            <h5 class="menu-category text-white mb-4">Otros</h5>
+            <ul class="list-group">
+                <li class="list-group-item bgblue">
+                    <a href="#" class="text-white menuhover" data-bs-toggle="collapse" data-bs-target="#menuOtros" aria-expanded="false" aria-controls="menuOtros">
+                        Alguna cosa <span class="arrow">&#9658;</span>
+                    </a>
+                    <ul class="submenu collapse" id="menuOtros">
+                        <li>
+                            <a href="#" class="text-white menuhover" data-bs-toggle="collapse" data-bs-target="#submenuCosa" aria-expanded="false" aria-controls="submenuCosa">
+                                Cosa <span class="arrow">&#9658;</span>
+                            </a>
+                            <ul class="submenu collapse" id="submenuCosa">
+                                <li><a href="#" class="text-white menuhover">Cosa1</a></li>
+                                <li><a href="#" class="text-white menuhover">Cosa2</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        </div>
+        
+    
+        <div class="overlay" onclick="cerrarMenu()"></div>
+    </div>
+
+
+    <div class="realbody">
+
+        <section class="destacados-section">
+            <div class="container">
+                <h2 class="section-heading mb-5">Descubre Nuestros Artículos Destacados</h2>
+                <hr class="my-4">
+                <div class="row destacados-container">
+                </div>
+                <div class="text-center mt-3">
+                    <button class="btn btn-primary btn-ver-mas" onclick="toggleProductosDestacados()">Ver Más</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="ofertas-section">
+            <div class="container">
+                <h2 class="section-heading mb-5">Nuestras Grandes Ofertas</h2>
+                <hr class="my-4">
+                <div class="row ofertas-container">
+                    
+                </div>
+                <div class="text-center mt-3">
+                    <button class="btn btn-primary btn-ver-oferta mb-2" onclick="toggleProductosOfertas()">Ver Más Ofertas</button>
+                </div>
+            </div>
+        </section>
+        
+        
+       
+    </div>
+
+    <div class="divisor"></div>
+
+  
+    <footer class="bgblue">
+        <div class="informacion bgblue text-white">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6">
+                        <h4 class="footer-heading footertitle">Nosotros</h4>
+                        <ul class="footer-list">
+                            <li><a href="#" class="footer-link"><p class="arrow">→</p>Quienes somos</a></li>
+                            <li><a href="#" class="footer-link"><p class="arrow">→</p>Servicios</a></li>
+                            <li><a href="#" class="footer-link"><p class="arrow">→</p>Contactos</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <h4 class="footer-heading footertitle">Afiliados</h4>
+                        <ul class="footer-list">
+                            <li><a href="#" class="footer-link"><p class="arrow">→</p>Empresas afiliadas</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <h4 class="footer-heading footertitle">Ayuda</h4>
+                        <ul class="footer-list">
+                            <li><a href="#" class="footer-link"><p class="arrow">→</p>Garantía</a></li>
+                            <li><a href="#" class="footer-link"><p class="arrow">→</p>FAQs</a></li>
+                            <li><a href="#" class="footer-link"><p class="arrow">→</p>Devoluciones</a></li>
+                            <li><a href="#" class="footer-link"><p class="arrow">→</p>Realizar Compras</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <h4 class="footer-heading footertitle">Términos</h4>
+                        <ul class="footer-list">
+                            <li><a href="#" class="footer-link"><p class="arrow">→</p>Términos y reglas</a></li>
+                            <li><a href="#" class="footer-link"><p class="arrow">→</p>Políticas y privacidad</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+        <div class="divisor"></div>
+
+        <div class="container">
+            <div class="row d-flex justify-content-center align-items-center">
+                <div class="col-12 text-center">
+                    <div class="redes bgblue">
+                        <a href="#" target="_blank"><img src="assets/frontend/multimedia/Instagram.png" class="footericons mb-4 mt-3 " ></a>
+                        <a href="#" target="_blank"><img src="assets/frontend/multimedia/yt.png" alt="" class="footericons mb-4 mt-3"></a>
+                        <a href="#" target="_blank"><img src="assets/frontend/multimedia/facebook.png" class="footericons mb-4 mt-3" alt=""></a>
+                        <a href="#" target="_blank"><img src="assets/frontend/multimedia/Whatsapp-Logo.png" class="footericons mb-4 mt-3" alt=""></a>
+                    </div>
+                    <div class="copyright">
+                        <p class="copytext">
+                            © 2024 TECNOMAGIC INNOVATIVE. Todos los derechos reservados.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/frontend/js/all.js"></script>
+    <script src="assets/frontend/js/scripts.js"></script>
+    <script src="assets/frontend/js/bootstrap.bundle.js"></script>
+    <script src="assets/frontend/js/popper.js"></script>
+    <script src="assets/frontend/js/jquery.js"></script>
+    <script src="assets/frontend/js/itemcontroller.js"></script>
+</body>
+</html>
